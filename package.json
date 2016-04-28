@@ -1,0 +1,20 @@
+{
+  "name": "node_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "mocha": "mocha *.spec.ts **/*.spec.ts --require ts-node/register",
+    "lint": "tslint -c tslint.json **/*.ts",
+    "test": "npm run lint && npm run mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "ts-node": "^0.7.2",
+    "tslint": "^3.8.1",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}

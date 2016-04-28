@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Misc
+.ignore/
+
+# Editors
+.idea/
